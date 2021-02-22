@@ -1,0 +1,13 @@
+security:
+  oauth2:
+    client:
+      clientId: 1baff7d8d760442184bf7d49acd5477d
+      clientSecret: b0c85b1291c64a19bca01cb14907a918
+      accessTokenUri: https://accounts.spotify.com/api/token
+      grantType: client_credentials
+
+service:
+  getAllNewRelease:
+    url: https://api.spotify.com/v1/browse/new-releases
+  getCategories:
+    url: https://api.spotify.com/v1/browse/categories
